@@ -1,0 +1,130 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+.toolbarWrapper{
+  --ion-toolbar-background: pink;
+  height: 40px;
+}
+.searchbox{
+  --background: #fff;
+  --box-shadow: 9px 9px 9px 9px #0108240a;
+  margin-bottom: 10px;
+}
+
+.foodTitle{
+  font-size: 18px;
+  width: 218px;
+  height: 43px;
+}
+.foodTitle2{
+  font-size: 18px;
+  width: 118px;
+  height: 22px;
+}
+
+.foodsubtit{
+  text-transform: none;
+  color: #8c8c8c;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.homepage_produxt_card{
+  width: 92%;
+  margin-left: 4%;
+}
+
+.home_card_bg{
+  float: left;
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  position: relative;
+}
+
+.card_point_outer{
+  width: 56px;
+  height: 32px;
+  background-color: #B70014;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 12px;
+}
+
+.card_point_outer ion-icon{
+  color: #ffffff;
+}
+
+.card_point_outer span{
+  color: #fff;
+  font-size: 12px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+
+.product_card_content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_content_detail{
+  width: calc(50% - 18px);
+  height: 20px;
+  margin: 0px 10px 6px 0px;
+  font-size: 11px;
+  color: #1A1824;
+  font-weight: 700;
+
+}
+.product_content_detail_right{
+  width: calc(50% - 2px);
+  height: 20px;
+  margin: 0px 10px 6px 0px;
+  font-size: 11px;
+  color: #1A1824;
+}
+
+.product_content_detail_right ion-icon{
+  color: #000;
+  font-size: 12px;
+}
+
+.cont .input{
+  outline: none;
+  border: 0;
+}

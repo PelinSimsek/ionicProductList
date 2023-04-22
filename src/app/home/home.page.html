@@ -1,0 +1,73 @@
+<ion-toolbar class="toolbarWrapper">
+  <ion-buttons slot="secondary">
+    <ion-button color="dark">
+      <ion-icon style="padding-left: 10px;" slot="icon-only" src="assets/menu_button.svg"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-buttons slot="primary">
+    <ion-button color="dark">
+      <ion-icon slot="icon-only" src="assets/group_36265.svg"></ion-icon>
+    </ion-button>
+    <ion-button color="dark">
+      <ion-icon style="padding-right: 10px;" slot="icon-only" src="assets/group_36267.svg"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>Ana Sayfa</ion-title>
+</ion-toolbar>
+
+
+<ion-content [fullscreen]="true">
+
+  <ion-icon slot="icon-only" name="baseball-outline"></ion-icon> 
+  <ion-searchbar placeholder="Mekan Ara" show-clear-button="never" style="position: relative;box-sizing: border-box;float: left;">
+    <img src="../../assets/filter_button.svg" style="position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 25px;
+    background: transparent;">
+  </ion-searchbar>
+  <ion-text style="padding: 16px; font-weight: bold;">Sonuçlar</ion-text>
+  
+  <ion-card class="homepage_produxt_card" style="margin-top: 15px;">
+    <div class="home_card_bg" style="background-image: url('assets/visneli-sarmal.png');">
+      <div class="card_point_outer">
+        <ion-icon name="star" aria-hidden="true"></ion-icon> <span style="color:#fff; font-size: 12px;">4.9</span>
+      </div>
+    </div>
+    <ion-card-header clas="homeCard_title">
+      <ion-card-title class="foodTitle">Reyhan Pastanesi Uzun Ad Demo</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content class="product_card_content">
+      <div class="product_content_detail" style=" opacity: 0.5;">Coffee, Tatlı</div>
+      <div class="product_content_detail_right" style="opacity: 0.5;">
+        <img style="width: 12px; height: 12px; margin-right: 3px;" src="../../assets/shopping_basket-24px-1.svg">
+        <span style="position: relative; bottom: 1px;" >Min. Sipariş Tutarı: ₺ 30</span>
+      </div>
+      <div class="product_content_detail" style="opacity: 1;">3 km yakınında</div>
+      <div class="product_content_detail_right"><span style="color: #34C47C; margin-right: 3px; font-weight: 700;">İşletme Açık</span><span style="  font-weight: 700; color: #1A182480;">10:00/22:00</span></div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="homepage_produxt_card" style="margin-top: 15px;">
+    <div class="home_card_bg" style="background-image: url('assets/visneli-sarmal.png');">
+      <div class="card_point_outer">
+        <ion-icon name="star" aria-hidden="true"></ion-icon> <span style="color:#fff; font-size: 12px;">4.2</span>
+      </div>
+    </div>
+    <ion-card-header clas="homeCard_title">
+      <ion-card-title class="foodTitle">Coffemania</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content class="product_card_content">
+      <div class="product_content_detail" style=" opacity: 0.5;">Coffee, Tatlı, Breakfast</div>
+      <div class="product_content_detail_right" style="opacity: 0.5;">
+        <img style="width: 12px; height: 12px; margin-right: 3px;" src="../../assets/shopping_basket-24px-1.svg">
+        <span style="position: relative; bottom: 1px;" >Min. Sipariş Tutarı: ₺ 30</span>
+      </div>
+      <div class="product_content_detail" style="opacity: 1;">3 km yakınında</div>
+      <div class="product_content_detail_right"><span style="color: #34C47C; margin-right: 3px;   font-weight: 700;">İşletme Açık</span><span style="font-weight: 700; color: #1A182480;">10:00/22:00</span></div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
